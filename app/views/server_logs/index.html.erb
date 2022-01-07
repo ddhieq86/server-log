@@ -1,0 +1,20 @@
+<h1>Log List</h1>
+
+<table>
+	<tr>
+		<th>Date Time</th>
+		<th>IP Address</th>
+		<th>Method</th>
+		<th>Status Code</th>
+		<th>Description</th>
+	</tr>
+	<% @logs.each do |log| %>
+	<tr>
+		<td><%= log.date_created %></td>
+		<td><%= log.ip_address %></td>
+		<td><%= log.request_method %></td>
+		<td><%= log.status_code %></td>
+		<td><%= log.body %></td>
+	</tr>
+	<% end %>
+</table>

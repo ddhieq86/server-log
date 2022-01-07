@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ip_address: MyString
+  body: MyText
+  request_method: MyString
+  status_code: MyString
+  date_created: 2022-01-03 09:44:52
+
+two:
+  ip_address: MyString
+  body: MyText
+  request_method: MyString
+  status_code: MyString
+  date_created: 2022-01-03 09:44:52
